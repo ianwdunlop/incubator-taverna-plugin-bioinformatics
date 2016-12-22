@@ -46,6 +46,15 @@
     <module>taverna-soaplab-activity</module>
     <module>taverna-soaplab-activity-ui</module>
   </modules>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <version>0.13-SNAPSHOT</version>
+      </plugin>
+    </plugins>
+  </build>
   <scm>
     <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git</connection>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git</developerConnection>
